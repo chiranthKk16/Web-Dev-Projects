@@ -1,0 +1,330 @@
+html, body{
+    height: 100%;
+    background-color: black;
+    scroll-behavior: smooth;
+    
+}
+
+@font-face {
+    font-family: mainfont;
+    src: url(fonts/shlop.ttf);
+}
+
+@font-face {
+    font-family: murderer;
+    src: url(fonts/youmurdererbb_reg.ttf);
+}
+
+@font-face {
+    font-family: stranger;
+    src: url(fonts/Stranger\ back\ in\ the\ Night.ttf);
+}
+
+@font-face {
+    font-family: contentfont;
+    src: url(fonts/TheyPerished.ttf);
+}
+
+.conten{
+    font-family: contentfont;
+}
+
+.strangerFont{
+    font-family: stranger;
+    font-size: 1.5em;
+}
+
+.fontmurder{
+    font-family: murderer;
+}
+
+.fontMain{
+    font-family: mainfont;
+    color: white;
+    font-size: 3em;
+    
+}
+
+.centre{
+   float: right;
+   width: 35%;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.button{
+    margin-top: 40px;
+    background-color: black;
+    color: #DFD6CC;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    display: block;
+    padding-bottom: 5px;
+    border: none;
+    -webkit-transform: skewX(-10deg);
+    -moz-transform: skewX(-10deg);
+    -ms-transform: skewX(-10deg);
+    transform: skewX(-10deg);
+    border: #DFD6CC;
+    border-style: solid;
+    transition-duration: 0.3s;
+}
+
+.buttongreen{
+    margin-top: 40px;
+    background-color: black;
+    color: #6ae619;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    display: block;
+    padding-bottom: 5px;
+    border: none;
+    -webkit-transform: skewX(-10deg);
+    -moz-transform: skewX(-10deg);
+    -ms-transform: skewX(-10deg);
+    transform: skewX(-10deg);
+    border: #6ae619;
+    border-style: solid;
+    transition-duration: 0.3s;
+}
+
+.buttongame{
+    margin-top: 40px;
+    background-color: black;
+    color: #b0c8ab;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    display: block;
+    padding-bottom: 5px;
+    border: none;
+    -webkit-transform: skewX(-10deg);
+    -moz-transform: skewX(-10deg);
+    -ms-transform: skewX(-10deg);
+    transform: skewX(-10deg);
+    border: #b0c8ab;
+    border-style: solid;
+    transition-duration: 0.3s;
+
+}
+
+.buttonred{
+    margin-top: 40px;
+    background-color: black;
+    color: crimson;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    display: block;
+    padding-bottom: 5px;
+    border: none;
+    -webkit-transform: skewX(-10deg);
+    -moz-transform: skewX(-10deg);
+    -ms-transform: skewX(-10deg);
+    transform: skewX(-10deg);
+    border: crimson;
+    border-style: solid;
+    transition-duration: 0.3s;
+}
+
+.buttonshop{
+    margin-top: 40px;
+    background-color: black;
+    color: wheat;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    display: block;
+    padding-bottom: 5px;
+    border: none;
+    -webkit-transform: skewX(-10deg);
+    -moz-transform: skewX(-10deg);
+    -ms-transform: skewX(-10deg);
+    transform: skewX(-10deg);
+    border: wheat;
+    border-style: solid;
+    transition-duration: 0.3s;
+}
+
+.buttonshop:hover{
+    background-color: wheat;
+    color: black;
+    border: wheat;
+    border-style: solid;
+}
+
+.buttonred:hover{
+    background-color: crimson;
+    color: black;
+    border: crimson;
+    border-style: solid;
+}
+
+.buttongame:hover{
+    background-color: #b0c8ab;
+    color: black;
+    border: #b0c8ab;
+    border-style: solid;
+}
+
+.buttongreen:hover{
+    background-color: #6ae619;
+    color: black;
+    border: #6ae619;
+    border-style: solid;
+}
+
+.button:hover{
+    background-color: #DFD6CC;
+    color: black;
+    border: black;
+    border-style: solid;
+}
+
+.video{
+    left: 0;
+    top: 0;
+    opacity: 1;
+}
+
+.overlay{
+    position: absolute;
+    bottom: 0;
+    align-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.segment1{
+    margin-left: auto;
+    margin-right: auto;
+    width: 97%;
+    height: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+}
+
+.movieseg{
+    background-color: black;
+    border-color: #383838;
+    border-width: 3px;
+    border-style: solid;
+    height: 95%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+
+.navBar{
+    width: fit-content;
+    height: auto; 
+    align-items: center; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+.bookseg{
+    border-color: #006400;
+    margin-left: auto;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 20px;
+    margin-right: auto;
+}
+
+.gifts{
+    background-image: url(images/gifts/gift.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+
+.gameseg{
+   
+}
+
+.container{
+    margin-top: 10px;
+    width: 50%;
+    float: right;
+    display: flex;
+    flex-direction: row;
+}
+
+.container div{
+    width: 30%;
+    height: 100%;
+}
+
+.left{
+    transition: 0.3s all ease-in-out;
+}
+
+.left:hover{
+    transform: scale(1.1);
+    
+}
+
+.mid{
+    transition: 0.3s all ease-in-out;
+}
+
+.mid:hover{
+    transform: scale(1.1);
+}
+
+.right{
+    transition: 0.3s all ease-in-out;
+    
+}
+
+.right:hover{
+    transform: scale(1.1);
+}
+
+.one{
+    transition: 0.3s all ease-in-out;
+}
+
+.one:hover{
+    transform: scale(1.1);
+}
+.two{
+    transition: 0.3s all ease-in-out;
+}
+
+.two:hover{
+    transform: scale(1.1);
+}
+
+.three{
+    transition: 0.3s all ease-in-out;
+}
+
+.three:hover{
+    transform: scale(1.1);
+}
+
+.four{
+    transition: 0.3s all ease-in-out;
+}
+
+.four:hover{
+    transform: scale(1.1);
+}
+
+.five{
+    transition: 0.3s all ease-in-out;
+}
+
+.five:hover{
+    transform: scale(1.1);
+}
